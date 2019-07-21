@@ -1,0 +1,18 @@
+<div class="clock">
+    {{startTime}}
+</div>
+<br>
+<table>
+    <tr *ngFor="let a of alarmList">
+        <td>
+            {{a.id}}
+        </td>
+        <td>
+            {{a.time}}
+        </td>
+        <td>
+            {{a.message}}
+        </td>
+    </tr>
+</table>
+<br><br>
